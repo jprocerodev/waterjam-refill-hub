@@ -38,16 +38,34 @@ const About = () => {
             </div>
           </div>
           
-          <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-water p-8 flex items-center justify-center shadow-medium">
-              <div className="text-center text-white space-y-4">
-                <div className="text-6xl font-bold">100%</div>
-                <div className="text-2xl font-semibold">Pure & Safe</div>
-                <div className="text-lg opacity-90">Quality Guaranteed</div>
+          <div className="grid grid-cols-2 gap-4">
+            <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-6 shadow-elegant hover:scale-105 transition-transform duration-300">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">100%</div>
+                <div className="text-sm font-medium opacity-90">Pure Water</div>
               </div>
             </div>
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent rounded-full opacity-20 blur-2xl"></div>
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary rounded-full opacity-20 blur-2xl"></div>
+            
+            <div className="bg-gradient-to-br from-secondary to-secondary/80 rounded-2xl p-6 shadow-elegant hover:scale-105 transition-transform duration-300">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">8</div>
+                <div className="text-sm font-medium opacity-90">Stage Filter</div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-accent to-accent/80 rounded-2xl p-6 shadow-elegant hover:scale-105 transition-transform duration-300">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">24/7</div>
+                <div className="text-sm font-medium opacity-90">Quality Check</div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-primary/90 to-secondary rounded-2xl p-6 shadow-elegant hover:scale-105 transition-transform duration-300">
+              <div className="text-white">
+                <div className="text-4xl font-bold mb-2">5★</div>
+                <div className="text-sm font-medium opacity-90">Certified Safe</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
