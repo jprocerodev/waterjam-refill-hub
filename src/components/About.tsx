@@ -46,7 +46,7 @@ const About = () => {
               </div>
             </div>
             
-            <div className="bg-gradient-to-br from-secondary to-secondary/80 rounded-2xl p-6 shadow-elegant hover:scale-105 transition-transform duration-300">
+            <div className="bg-gradient-to-br from-accent to-primary rounded-2xl p-6 shadow-elegant hover:scale-105 transition-transform duration-300">
               <div className="text-white">
                 <div className="text-4xl font-bold mb-2">8</div>
                 <div className="text-sm font-medium opacity-90">Stage Filter</div>
