@@ -8,45 +8,45 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 245 60% 20%;
+    --background: 210 50% 98%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 245 60% 20%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 245 60% 20%;
+    --popover-foreground: 215 25% 15%;
 
-    --primary: 245 60% 55%;
+    --primary: 203 89% 40%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 190 70% 60%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 195 100% 85%;
+    --secondary-foreground: 203 89% 25%;
 
-    --muted: 245 30% 96%;
-    --muted-foreground: 245 20% 50%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 190 70% 60%;
+    --accent: 188 94% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 245 30% 88%;
-    --input: 245 30% 88%;
-    --ring: 245 60% 55%;
+    --border: 210 30% 88%;
+    --input: 210 30% 88%;
+    --ring: 203 89% 40%;
 
     --radius: 0.75rem;
     
-    /* Water Jam brand colors */
-    --water-blue: 245 60% 55%;
-    --water-light: 190 70% 70%;
-    --water-dark: 245 60% 45%;
-    --ocean-deep: 245 60% 35%;
+    /* Water-themed custom colors */
+    --water-blue: 203 89% 40%;
+    --water-light: 195 100% 85%;
+    --water-dark: 203 89% 25%;
+    --ocean-deep: 210 45% 30%;
     
     /* Gradients */
-    --gradient-water: linear-gradient(135deg, hsl(245 60% 55%) 0%, hsl(245 50% 50%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(245 60% 55%) 0%, hsl(245 50% 50%) 100%);
+    --gradient-water: linear-gradient(135deg, hsl(203 89% 40%) 0%, hsl(188 94% 45%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(210 50% 98%) 0%, hsl(195 100% 95%) 100%);
     
     /* Shadows */
     --shadow-soft: 0 4px 20px hsl(203 89% 40% / 0.1);
@@ -73,36 +73,36 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 245 60% 10%;
-    --foreground: 0 0% 98%;
+    --background: 210 45% 8%;
+    --foreground: 210 40% 98%;
 
-    --card: 245 50% 15%;
-    --card-foreground: 0 0% 98%;
+    --card: 210 40% 12%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 245 50% 15%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 210 40% 12%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 245 60% 60%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 195 100% 65%;
+    --primary-foreground: 210 45% 8%;
 
-    --secondary: 190 70% 55%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 210 40% 15%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 245 40% 20%;
-    --muted-foreground: 245 20% 70%;
+    --muted: 210 40% 15%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 190 70% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 188 94% 55%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 63% 31%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 210 40% 98%;
 
-    --border: 245 40% 25%;
-    --input: 245 40% 25%;
-    --ring: 245 60% 60%;
+    --border: 210 40% 20%;
+    --input: 210 40% 20%;
+    --ring: 195 100% 65%;
     
-    --gradient-water: linear-gradient(135deg, hsl(245 60% 60%) 0%, hsl(245 50% 55%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(245 60% 15%) 0%, hsl(245 50% 20%) 100%);
+    --gradient-water: linear-gradient(135deg, hsl(195 100% 65%) 0%, hsl(188 94% 55%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(210 45% 8%) 0%, hsl(210 40% 12%) 100%);
   }
 }
 
