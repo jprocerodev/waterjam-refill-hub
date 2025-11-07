@@ -9,7 +9,7 @@ const Hero = () => {
         <img 
           src={heroImage} 
           alt="Clean pure water" 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover md:object-cover object-center"
         />
       </div>
       

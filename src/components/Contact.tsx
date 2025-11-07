@@ -6,12 +6,12 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: "123 Main Street, Your City",
+    details: "348 Barangka Drive, Mandaluyong",
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: "+63 123 456 7890",
+    details: "09771335817 / 09273964794",
   },
   {
     icon: Clock,
