@@ -1,7 +1,7 @@
 import { CheckCircle } from "lucide-react";
 
 const features = [
-  "Advanced 8-stage purification system",
+  "Advanced 32-stage purification system",
   "Regular quality testing and monitoring",
   "Licensed and certified operations",
   "Eco-friendly refilling process",
@@ -11,7 +11,7 @@ const features = [
 
 const About = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-water-light/10">
+    <section id="about" className="py-20 bg-gradient-to-b from-background to-water-light/10">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
@@ -48,7 +48,7 @@ const About = () => {
             
             <div className="bg-gradient-to-br from-accent to-primary rounded-2xl p-6 shadow-elegant hover:scale-105 transition-transform duration-300">
               <div className="text-white">
-                <div className="text-4xl font-bold mb-2">8</div>
+                <div className="text-4xl font-bold mb-2">32</div>
                 <div className="text-sm font-medium opacity-90">Stage Filter</div>
               </div>
             </div>
