@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "@/assets/logo.png";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Droplet } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const scrollToSection = (id: string) => {
@@ -38,7 +37,9 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Water Jam Logo" className="h-14 w-auto" />
+            <div className="h-12 w-12 rounded-full bg-gradient-to-br from-primary via-accent to-secondary flex items-center justify-center shadow-lg">
+              <Droplet className="h-6 w-6 text-white" fill="white" />
+            </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-primary">Water Jam</span>
               <span className="text-xs text-muted-foreground">Refilling Station</span>
@@ -81,35 +82,35 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-background/98 backdrop-blur-md border-t border-border shadow-lg">
-            <div className="container mx-auto px-4 py-6 flex flex-col gap-4">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-background border-t border-border shadow-xl animate-fade-in">
+            <div className="container mx-auto px-4 py-6 flex flex-col gap-2">
               <button 
                 onClick={() => handleNavClick("#home")} 
-                className="text-foreground hover:text-primary transition-colors font-medium text-left py-2 px-4 rounded-lg hover:bg-primary/10"
+                className="text-foreground hover:text-primary transition-all font-medium text-left py-3 px-4 rounded-lg hover:bg-primary/10 active:scale-95"
               >
                 Home
               </button>
               <button 
                 onClick={() => handleNavClick("#services")} 
-                className="text-foreground hover:text-primary transition-colors font-medium text-left py-2 px-4 rounded-lg hover:bg-primary/10"
+                className="text-foreground hover:text-primary transition-all font-medium text-left py-3 px-4 rounded-lg hover:bg-primary/10 active:scale-95"
               >
                 Services
               </button>
               <button 
                 onClick={() => handleNavClick("#about")} 
-                className="text-foreground hover:text-primary transition-colors font-medium text-left py-2 px-4 rounded-lg hover:bg-primary/10"
+                className="text-foreground hover:text-primary transition-all font-medium text-left py-3 px-4 rounded-lg hover:bg-primary/10 active:scale-95"
               >
                 About
               </button>
               <button 
                 onClick={() => handleNavClick("#gallery")} 
-                className="text-foreground hover:text-primary transition-colors font-medium text-left py-2 px-4 rounded-lg hover:bg-primary/10"
+                className="text-foreground hover:text-primary transition-all font-medium text-left py-3 px-4 rounded-lg hover:bg-primary/10 active:scale-95"
               >
                 Gallery
               </button>
               <button 
                 onClick={() => handleNavClick("#contact")} 
-                className="text-foreground hover:text-primary transition-colors font-medium text-left py-2 px-4 rounded-lg hover:bg-primary/10"
+                className="text-foreground hover:text-primary transition-all font-medium text-left py-3 px-4 rounded-lg hover:bg-primary/10 active:scale-95"
               >
                 Contact
               </button>
