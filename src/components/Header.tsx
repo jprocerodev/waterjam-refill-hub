@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Droplet } from "lucide-react";
+import { Menu, X, Waves } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const scrollToSection = (id: string) => {
@@ -37,8 +37,8 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="h-12 w-12 rounded-full bg-gradient-to-br from-primary via-accent to-secondary flex items-center justify-center shadow-lg">
-              <Droplet className="h-6 w-6 text-white" fill="white" />
+            <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center">
+              <Waves className="h-5 w-5 text-primary-foreground" strokeWidth={2.5} />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-primary">Water Jam</span>

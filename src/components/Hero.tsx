@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-water.jpg";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-hero">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero pt-20">
       <div className="absolute inset-0 opacity-30">
         <img 
           src={heroImage} 
