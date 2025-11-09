@@ -62,12 +62,8 @@ const Contact = () => {
             className="bg-gradient-water hover:opacity-90 transition-all duration-300 shadow-soft px-8"
             asChild
           >
-            <a 
-              href="https://maps.google.com/?q=Water+Jam+Water+Refilling+Station,+348+Barangka+Drive,+Mandaluyong"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Visit Us Today
+            <a href="tel:+639771335817">
+              Contact Us Now
             </a>
           </Button>
         </div>
