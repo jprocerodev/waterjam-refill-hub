@@ -21,7 +21,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: "info@waterjam.com",
+    details: "Julieiglesias2780@gmail.com",
   },
 ];
 
