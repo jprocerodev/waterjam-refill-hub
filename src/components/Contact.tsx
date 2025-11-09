@@ -60,8 +60,15 @@ const Contact = () => {
           <Button 
             size="lg" 
             className="bg-gradient-water hover:opacity-90 transition-all duration-300 shadow-soft px-8"
+            asChild
           >
-            Visit Us Today
+            <a 
+              href="https://www.google.com/maps/dir//Water+Jam+Water+Refilling+Station,+348+Barangka+Dr.,+Mandaluyong+City,+1550+Metro+Manila/@14.5707009,121.0355635,16z/data=!4m17!1m8!3m7!1s0x3397c94186cedd39:0xe5188549a88ea624!2sWater+Jam+Water+Refilling+Station!8m2!3d14.5716636!4d121.037846!15sCjJXYXRlciBKYW0gV2F0ZXIgUmVmaWxsaW5nIFN0YXRpb24gTWFuZGFsdXlvbmcgQ2l0eVo0IjJ3YXRlciBqYW0gd2F0ZXIgcmVmaWxsaW5nIHN0YXRpb24gbWFuZGFsdXlvbmcgY2l0eZIBFGJldmVyYWdlX2Rpc3RyaWJ1dG9y4AEA!16s%2Fg%2F11symjsv3g!4m7!1m0!1m5!1m1!1s0x3397c94186cedd39:0xe5188549a88ea624!2m2!1d121.037846!2d14.5716636?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit Us Today
+            </a>
           </Button>
         </div>
       </div>
